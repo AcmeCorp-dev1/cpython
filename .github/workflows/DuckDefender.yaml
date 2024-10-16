@@ -3,9 +3,7 @@ env:
   
 # This is a basic workflow to help you get started with GitHub Actions          
 
-
 name: Scan code using fd code scanner 
-
 
 # Triggers the workflow on push events but only for the development branch  
 on:
@@ -20,7 +18,7 @@ jobs:
 
 # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # Download image from docker hub
 
